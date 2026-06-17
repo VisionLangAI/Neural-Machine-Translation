@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1272323114.svg)](https://doi.org/10.5281/zenodo.20734228)
+
 # DSF–MarianMT: Dynamic Semantic Fusion Enhanced Neural Machine Translation
 
 ## Overview
