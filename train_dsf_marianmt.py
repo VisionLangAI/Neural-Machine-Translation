@@ -1,6 +1,4 @@
 """
-Trainable end-to-end code for DSF–MarianMT Chinese–English translation study.
-
 This script trains/evaluates the following models on a Chinese-English parallel dataset:
 
 1. Word2Vec + Bi-LSTM Seq2Seq
@@ -24,16 +22,6 @@ It also generates:
 - SHAP-style component importance plot based on learned ablation drops
 - CSV tables and PNG figures
 
-Dataset:
-Expected CSV with Chinese and English columns.
-Default path: translation.csv
-
-Run examples:
-python train_dsf_marianmt_full.py --data translation.csv --src_col chinese --tgt_col english --epochs 3
-python train_dsf_marianmt_full.py --data translation.csv --run_deep_baselines --run_transformers --epochs 10
-
-For GPU training:
-python train_dsf_marianmt_full.py --data translation.csv --device cuda --epochs 10
 
 Important:
 - Full transformer training is computationally expensive.
